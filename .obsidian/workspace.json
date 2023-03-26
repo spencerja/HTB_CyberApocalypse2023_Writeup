@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "c6abfa357155f1c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "7251e33b26bf9cce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd170c0613bbf61e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pwn/Labyrinth/Report.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "67663e7c62c6d134",
+    "type": "split",
+    "children": [
+      {
+        "id": "340419082cd2b698",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86763d90f3ca04cc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3f833a0991e55ba6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "80a7b718fab5eb0c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4a2a9380089f2180",
+    "type": "split",
+    "children": [
+      {
+        "id": "579fe7c2cd2daf0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47b7a03a496ee87f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pwn/Labyrinth/Report.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "807c3cd2a62db6b0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Pwn/Labyrinth/Report.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "632572f4d64829bd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d3cc54cf4cb43cdc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pwn/Labyrinth/Report.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "bd170c0613bbf61e",
+  "lastOpenFiles": [
+    "Pwn/Labyrinth/escape.py",
+    "Pwn/Labyrinth/escape.txt",
+    "Pwn/Labyrinth/New Text Document.txt",
+    "Web/Drobots/Report.md",
+    "Pwn/Labyrinth/Report.md",
+    "Misc/Restricted/Report.md",
+    "Misc/Persistence/Report.md",
+    "Misc/Persistence/loop.sh",
+    "Misc/Nehebkaus Trap/Report.md",
+    "Misc/Janken/Report.md",
+    "Misc/Janken/RPS.py",
+    "Forensics/Extraterrestrial Persistence/Report.md",
+    "Misc/Hijack/Report.md",
+    "Web/Gunhead/Report.md",
+    "Web/Orbital/Report.md",
+    "Web/Passman/Report.md",
+    "Web/Trapped Source/Report.md",
+    "Web/Passman/Screencaps",
+    "Web/Passman/Screencaps/Pasted image 20230325201439.png",
+    "Web/Passman/Screencaps/Pasted image 20230325201233.png",
+    "Web/Passman/Screencaps/Pasted image 20230325201228.png",
+    "Web/Passman/Screencaps/Pasted image 20230325201148.png",
+    "Web/Passman/Screencaps/Pasted image 20230325201127.png",
+    "Pasted image 20230325200711.png",
+    "Web/Orbital/screencaps/Pasted image 20230325195302.png",
+    "Web/Orbital/screencaps/Pasted image 20230325195247.png",
+    "Web/Orbital/screencaps/Pasted image 20230325194611.png",
+    "Web/Orbital/screencaps/Pasted image 20230325194718.png",
+    "Web/Orbital/screencaps",
+    "Web/Passman",
+    "Web/Orbital",
+    "Web/Trapped Source/Screencaps",
+    "Web/Trapped Source",
+    "Untitled.md",
+    "Forensics/Extraterrestrial Persistence 1.md",
+    "().md"
+  ]
+}
