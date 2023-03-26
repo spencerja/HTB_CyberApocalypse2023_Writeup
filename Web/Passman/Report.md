@@ -28,12 +28,20 @@ Interestingly, the `database.js` file shows us more request options than we migh
 ```
 There is no authorization verification here, so perhaps if we can request to change the password of user admin, we can login as admin.
 Starting with a post request to register a new user:
-![[Pasted image 20230325201148.png]]
+
+![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Passman/Screencaps/Pasted%20image%2020230325201148.png)
+
 Revised post request:
-![[Pasted image 20230325201127.png]]
+
+![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Passman/Screencaps/Pasted%20image%2020230325201127.png)
+
 Response:
-![[Pasted image 20230325201233.png]]
+
+![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Passman/Screencaps/Pasted%20image%2020230325201228.png)
+
 We have updated the admin password successfully, or so it says. When we attempt to login as admin, we are successful! The flag is given in the password field of admin's saved passwords.
-![[Pasted image 20230325201439.png]]
+
+![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Passman/Screencaps/Pasted%20image%2020230325201439.png)
+
 `HTB{1d0r5_4r3_s1mpl3_4nd_1mp4ctful!!}`
 
