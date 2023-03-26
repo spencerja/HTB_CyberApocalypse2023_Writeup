@@ -30,9 +30,9 @@ class ReconModel
 }
 ```
 We have a commented note pointing out the lack of sanitization within the shell_exec. We should be able to use this /ping command to execute multiple shell commands when we include a break;
-Testing with whoami:
+Testing with id:
 ```
-/ping 8.8.8.8; whoami
+/ping 8.8.8.8; id
 ```
 ![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Gunhead/Screencaps/Pasted%20image%2020230325104911.png)
 
