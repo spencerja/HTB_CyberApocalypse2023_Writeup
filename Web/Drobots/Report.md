@@ -12,8 +12,12 @@ def login(username, password):
 ```
 The comment is a pretty plain hint that this SQL query is not well sanitized, and allows for very basic SQL injection.
 For our user submission, we will escape the username query with ", then bypass a password check with "OR 1=1 -- ". The end result is we will login if the database can find a user called "" or if the value 1 is equal to 1. Since the latter is always true, we should login. Note that the space after comment lines -- must be present, or else this will be interpreted as minus.
-![[Pasted image 20230325103055.png]]
+
+![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Drobots/Screencaps/Pasted%20image%2020230325103055.png)
+
 The password will never be checked, so this can be whatever.
 Just like that, we are in. And the flag is first up on the table.
-![[Pasted image 20230325103409.png]]
+
+![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Drobots/Screencaps/Pasted%20image%2020230325103409.png)
+
 `HTB{p4r4m3t3r1z4t10n_1s_1mp0rt4nt!!!}`
