@@ -8,7 +8,7 @@ Visiting the website we see a lot of text, and the only interactable piece seems
 
 ![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Gunhead/Screencaps/Pasted%20image%2020230325103826.png)
 
-Our options for commands is extremely limited. Perhaps the provided source code can give us  more insight?
+Our options for commands are extremely limited. Perhaps the provided source code can give us  more insight?
 In ReconModel.php, we see how the program handles this ping command:
 ```
 $ cat ReconModel.php 
