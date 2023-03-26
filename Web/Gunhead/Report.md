@@ -32,11 +32,11 @@ Testing with whoami:
 ```
 /ping 8.8.8.8; whoami
 ```
-![[Pasted image 20230325104911.png]]
+![[Pasted image Screencaps/20230325104911.png]]
 We see the 2nd shows our id. This command injection is successful. We will probe the current directory, and since there's no harm, take a guess that flag.txt is in our current directory:
-![[Pasted image 20230325105242.png]]
+![[Pasted image Screncaps/20230325105242.png]]
 We didn't hit it this time, but using this command scheme we can keep using `ls` to poke around for the flag. Or we can try `find`.
-![[Pasted image 20230325105457.png]]
+![[Pasted image Screencaps/20230325105457.png]]
 Now we find it in probably the next most likely location, the base directory.
-![[Pasted image 20230325105542.png]]
+![[Pasted image Screencaps/20230325105542.png]]
 `HTB{4lw4y5_54n1t1z3_u53r_1nput!!!}`
