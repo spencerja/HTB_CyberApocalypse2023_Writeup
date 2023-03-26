@@ -274,9 +274,13 @@ def exportFile():
 We see there is a lack of sanitization on how it is grabbing the file to export. If we can edit the file name we are requesting, we can perform directory traversal to grab any file that is not read-protected. To check this, we will look for the always-readable /etc/passwd.
 In burpsuite:
 Request
+
 ![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Orbital/screencaps/Pasted%20image%2020230325194705.png)
+
 Response
+
 ![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Orbital/screencaps/Pasted%20image%2020230325194718.png)
+
 We see the contents of /etc/passwd. Now all that remains is to find the flag.
 After making several guesses on where the flag might be located, we have yet to find the flag. Back to the source code, perhaps we can see how it is being placed upon initialization by viewing the Dockerfile:
 ```
@@ -323,7 +327,11 @@ ENTRYPOINT ["/entrypoint.sh"]
 They did indeed pull a cheeky one on us, note how the flag.txt has been renamed! In this machine it's now called `signal_sleuth_firmware`
 In Burpsuite:
 Request:
+
 ![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Orbital/screencaps/Pasted%20image%2020230325195247.png)
+
 Response:
+
 ![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Orbital/screencaps/Pasted%20image%2020230325195302.png)
+
 Flag `HTB{T1m3_b4$3d_$ql1_4r3_fun!!!}`
