@@ -5,7 +5,9 @@ During Pandora's training, the Gunhead AI combat robot had been tampered with an
 ### Difficulty: very easy
 ---
 Visiting the website we see a lot of text, and the only interactable piece seems to be a pull-up console:
-![[Pasted image 20230325103826.png]]
+
+![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Gunhead/Screencaps/Pasted%20image%2020230325103826.png)
+
 Our options for commands is extremely limited. Perhaps the provided source code can give us  more insight?
 In ReconModel.php, we see how the program handles this ping command:
 ```
@@ -32,11 +34,18 @@ Testing with whoami:
 ```
 /ping 8.8.8.8; whoami
 ```
-![[Pasted image Screencaps/20230325104911.png]]
+![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Gunhead/Screencaps/Pasted%20image%20Screencaps/20230325104911.png)
+
 We see the 2nd shows our id. This command injection is successful. We will probe the current directory, and since there's no harm, take a guess that flag.txt is in our current directory:
-![[Pasted image Screncaps/20230325105242.png]]
+
+![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Gunhead/Screencaps/Pasted%20image%20Screncaps/20230325105242.png)
+
 We didn't hit it this time, but using this command scheme we can keep using `ls` to poke around for the flag. Or we can try `find`.
-![[Pasted image Screencaps/20230325105457.png]]
+
+![image](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Gunhead/Screencaps/Pasted%20image%20Screencaps/20230325105457.png)
+
 Now we find it in probably the next most likely location, the base directory.
-![[Pasted image Screencaps/20230325105542.png]]
+
+![iamge](https://github.com/spencerja/HTB_CyberApocalypse2023_Writeup/blob/main/Web/Gunhead/Screencaps/Pasted%20image%20Screencaps/20230325105542.png)
+
 `HTB{4lw4y5_54n1t1z3_u53r_1nput!!!}`
